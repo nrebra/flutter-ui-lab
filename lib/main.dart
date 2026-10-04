@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_learn/101/column_row_learn.dart';
+import 'package:flutter_learn/demo/stack_demo_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
           elevation: 0,
         ),
       ),
-      home: ColumnRowLearn(),
+      home: StackDemoView(),
     );
   }
 }
