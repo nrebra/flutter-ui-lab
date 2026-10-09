@@ -21,7 +21,7 @@ class ImageLaern extends StatelessWidget {
 }
 
 class ImageItems {
-  final String imagePath = "assets/apple.png";
+  final String imagePath = "assets/png/apple.png";
 }
 
 class PngImage extends StatelessWidget {
