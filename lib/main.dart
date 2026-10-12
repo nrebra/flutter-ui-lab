@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_learn/demo/color_life_cycle.dart';
+import 'package:flutter_learn/101/navigation_learn.dart';
 
 void main() {
   runApp(const MyApp());
@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
           elevation: 0,
         ),
       ),
-      home: ColorLifecycleView(),
+      home: NavigationLearn(),
     );
   }
 }
