@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_learn/101/navigation_learn.dart';
+import 'package:flutter_learn/202/tab_learn.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,6 +14,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData.dark().copyWith(
+        tabBarTheme: const TabBarThemeData(
+          labelColor: Colors.white,
+          unselectedLabelColor: Colors.grey,
+        ),
         progressIndicatorTheme: ProgressIndicatorThemeData(color: Colors.white),
         listTileTheme: ListTileThemeData(contentPadding: EdgeInsets.zero),
         appBarTheme: const AppBarTheme(
@@ -22,7 +26,7 @@ class MyApp extends StatelessWidget {
           elevation: 0,
         ),
       ),
-      home: NavigationLearn(),
+      home: TabLearn(),
     );
   }
 }
